@@ -3,8 +3,9 @@ This repository contains a collection of random JavaScript code challenges with 
 
 ## TABLE OF CONTENT
 1. [Jest Setup](#jest-setup)
+1. [Basic keywords & functions](#basic-keywords--functions)
 1. [How to write a simple test with Jest](#how-to-write-a-simple-test-with-jest)
-1. []()
+1. [Why Jest?]()
 1. []()
 1. []()
 1. []()
@@ -29,6 +30,21 @@ To set up a Jest environment for your project, you will need to follow these gen
     ```
 
 1. Run the Jest tests using the command `npm test` or `yarn test` in your project directory. Jest will automatically find and run all test files with the .test.js or .spec.js extension in your test directory.
+
+---
+## Basic keywords & functions
+Here are some basic keywords/functions in Jest that are often used:
+
+* `describe()` - used to group tests together
+it() - used to define a single test case
+* `expect()` - used to define the expected output of a test case
+* `toBe()` - used to check if two values are strictly equal
+* `toEqual()` - used to check if two values are equal
+* `beforeEach()` - used to define a setup function that runs before each test case
+* `afterEach()` - used to define a teardown function that runs after each test case
+* `beforeAll()` - used to define a setup function that runs before all test cases
+* `afterAll()` - used to define a teardown function that runs after all test cases
+* `toMatch()` - used to check if a value matches a regular expression.
 
 ---
 ## How to write a simple test with Jest
@@ -60,6 +76,24 @@ The test() function takes two arguments: a description of what the test does, an
 Some common matcher functions include toBe(), toEqual(), and toMatch(), among others.
 
 Once you have written your test, you can run it using the npm test command in your terminal.
+
+
+---
+
+## Why Jest?
+There are several benefits of using Jest for testing:
+
+1. Easy to Use: Jest provides a simple and easy-to-use API that allows developers to write and run tests with minimal setup.
+
+1. Fast: Jest is designed to be fast and parallelizes test runs across multiple cores, which can significantly reduce the time it takes to run tests.
+
+1. Snapshot Testing: Jest has built-in support for snapshot testing, which allows you to capture the output of your component and compare it against a previously saved version. This can help catch regressions and ensure that your components are working as expected.
+
+1. Mocking: Jest provides built-in mocking capabilities that allow you to mock modules, functions, and objects. This can be particularly useful when testing complex components that have many dependencies.
+
+1. Coverage Reports: Jest can generate coverage reports that show how much of your code is covered by your tests. This can help you identify areas of your code that need more testing and ensure that your code is well tested.
+
+Jest is a powerful and easy-to-use testing framework that can help you write better code and catch bugs early in the development process.
 
 ---
 ## Technology
