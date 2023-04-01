@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require('../arithmetic');
+const fizzBuzz = require('../arithmetic');
 
 describe("add", () => {
   it("should add two numbers", () => {
