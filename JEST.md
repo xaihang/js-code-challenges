@@ -10,7 +10,7 @@
 ## Jest Setup 
 To set up a Jest environment for your project, you will need to follow these general steps:
 
-1. Install Jest as a dev dependency in your project using a package manager like npm or yarn. For example, you can run `npm install --save-dev jest` in your project directory to install Jest.
+1. Install Jest as a dev dependency in your project using a package manager like npm or yarn. For example, you can run `npm install jest` in your project directory to install Jest.
 
 1. Create a test directory in your project and add your test files with the `.test.js` or `.spec.js` extension. Jest will automatically find and run these tests.
 
