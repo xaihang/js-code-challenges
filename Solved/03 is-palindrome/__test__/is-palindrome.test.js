@@ -8,7 +8,7 @@ describe('isPalindrome', function() {
     const result = isPalindrome(str);
 
     expect(result).toBeTruthy()
-    // expect(result).toBeFalsy()
+   
   });
 
   it('takes a string and returns false if the string is not a palindrome', function() {
@@ -17,6 +17,6 @@ describe('isPalindrome', function() {
     const result = isPalindrome(str);
 
     expect(result).toBeFalsy()
-    // expect(result).toBeTruthy()
+
   });
 });
